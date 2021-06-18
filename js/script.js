@@ -101,6 +101,7 @@ const icons = [
   ];
 
   icons.forEach(elem => {
-      const {name, prefix, type, family} = elem;
-      document.getElementById("mainC").innerHTML += `<div class="box"><i class="${family} ${prefix}${name}"></i><div class="text-uppercase name">${name}</div>`;
+    const {name, prefix, type, family} = elem;
+    document.getElementById("mainC").innerHTML += `<div class="box ${type}"><i class="${family} ${prefix}${name}"></i><div class="text-uppercase name">${name}</div>`;
+    
   })

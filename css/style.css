@@ -48,4 +48,17 @@ main {
 .name {
     margin-top: 10px;
     font-size: 15px;
+    color: black
+}
+
+.animal {
+    color:darkslateblue;
+}
+
+.vegetable {
+    color:cadetblue;
+}
+
+.user {
+    color:steelblue;
 }
