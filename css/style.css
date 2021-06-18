@@ -27,19 +27,25 @@ main {
     width: 100%;
     overflow-y: scroll;
     background-color: lightgrey;
-    text-align: center;
+    padding-top: 10px;
 }
 
 .box {
     display: inline-flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
     font-size: 35px;
     width: 180px;
-    height: 90px;
+    height: 110px;
     background-color: white;
     border-radius: 10px;
     margin: 15px 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    margin-top: 10px;
+    font-size: 15px;
 }
