@@ -62,3 +62,7 @@ main {
 .user {
     color:steelblue;
 }
+
+option {
+    text-transform: capitalize;
+}
